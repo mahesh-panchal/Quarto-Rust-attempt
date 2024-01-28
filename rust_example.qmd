@@ -3,7 +3,7 @@ title: Rust in Quarto example
 
 format: typst
 
-jupyter: evcxr
+jupyter: rust
 ---
 
 An example from the installation page of evcxr https://github.com/evcxr/evcxr/tree/main/evcxr_jupyter.
