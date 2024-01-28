@@ -1,7 +1,7 @@
 ---
 title: Rust in Quarto example
 
-format: typst
+format: html
 
 jupyter: rust
 ---
