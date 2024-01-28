@@ -6,3 +6,7 @@ tasks:
       sudo dpkg -i quarto-linux-amd64.deb
       rm quarto-linux-amd64.deb
       quarto check all
+  - name: Install Evcxr (Jupyter Rust kernel)
+    command: |
+      cargo install --locked evcxr_jupyter
+      evcxr_jupyter --install
